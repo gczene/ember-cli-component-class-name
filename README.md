@@ -1,6 +1,6 @@
 # Ember-CLI-component-class-name
 
-This simple component adds a css class name automatically to the components based on its name. The reason to build it was to help acceptance tests when you test the existance of a component or you want to `find` it.
+This simple component adds a css class name automatically to the components based on their name. The reason to build it was to help acceptance tests when you test the existance of a component or you want to `find` it.
 
 E.g.
 ```hbs
