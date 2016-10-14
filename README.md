@@ -1,12 +1,22 @@
 # Ember-CLI-component-class-name
 
-This README outlines the details of collaborating on this Ember addon.
+This simple component adds a css class name automatically to the components based on its name. The reason to build it was to help acceptance tests when you test the existance of a component or you want to `find` it.
+
+E.g.
+```hbs
+{{it-is-a-box}}
+```
+
+will be rendered as:
+```html
+<div class="ember-view it-is-a-box-component">
+</div>
+
+```
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `npm install ember-cli-component-class-name`
 
 ## Running
 
