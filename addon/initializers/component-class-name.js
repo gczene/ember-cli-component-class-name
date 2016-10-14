@@ -7,7 +7,6 @@ export function initialize(/* application */) {
       try {
         var arr = this.toString().match(/@component:.+?:/),
         className = arr[0].split(':')[1];
-
         this.get('classNames').pushObject(className + '-component');
       } catch (err) {
         return;

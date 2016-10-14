@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'component-class-name'
+  name: 'ember-cli-component-class-name'
 };

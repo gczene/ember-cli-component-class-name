@@ -1,5 +1,5 @@
 {
-  "name": "component-class-name",
+  "name": "ember-cli-component-class-name",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {

@@ -1,4 +1,4 @@
-# Component-class-name
+# Ember-CLI-component-class-name
 
 This README outlines the details of collaborating on this Ember addon.
 

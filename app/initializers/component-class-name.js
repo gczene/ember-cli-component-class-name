@@ -1,1 +1,1 @@
-export { default, initialize } from 'component-class-name/initializers/component-class-name';
+export { default, initialize } from 'ember-cli-component-class-name/initializers/component-class-name';
