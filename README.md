@@ -15,8 +15,7 @@ will be rendered as:
 ```
 
 ## Installation
-
-* `npm install ember-cli-component-class-name`
+* `ember install ember-cli-component-class-name`
 
 ## Running
 
