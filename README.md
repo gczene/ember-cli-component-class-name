@@ -9,44 +9,25 @@ E.g.
 
 will be rendered as:
 ```html
-<div class="ember-view it-is-a-box-component">
-</div>
+<div class="ember-view it-is-a-box-component"></div>
 
 ```
 ## Nested components
 
-Nested components name contains `/` therefore jQuery selectors can't find them. To avoid this problem `/` replaced as `-`.
-For example:
 ```hbs
-{{#component-a}}
-  {{my-nested}}
-{{/component-a}}
+{{#it-is-a-box}}
+  {{it-is-a-child}}
+{{/it-is-a-box}}
 ```
-rendered as:
+
+will be rendered as:
 ```html
-<div class="ember-view component-a-component">
-  <div class="ember-view component-a-my-nested-component"></div>
+<div class="ember-view it-is-a-box-component">
+  <div class="ember-view it-is-a-child-component"></div>
 </div>
+
 ```
 
-To override this behaviour or override the replacement string use `componentClassSlashReplacement` property in your environment.js. 
-
-```javascript
-// config/environment.js
-
-module.exports = function(environment) {
-  var ENV = {
-    componentClassSlashReplacement: 'mySeparator' // or false to turn it off
-```
-
-Optional values of `componentClassSlashReplacement`:
-
-
-| value             | example           | Result  |
-| -------------     | -------------     | -----   |
-| true (or not exist at all)  | using default "-" | parent-stg-my-child-component |
-| string            | "YO"                |   parent-stgYOmy-child-component |
-| false             | false             |    parent-stg/my-child-component |
 
 
 ## Installation
