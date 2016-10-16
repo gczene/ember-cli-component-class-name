@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-component-class-name",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Small addon to add default css to components",
   "directories": {
     "doc": "doc",
@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": "https://github.com/gczene/ember-cli-component-class-name",
   "engines": {
     "node": ">= 0.10.0"
   },
