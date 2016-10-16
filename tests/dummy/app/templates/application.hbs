@@ -2,7 +2,11 @@
 it is a test component
 {{/my-component}}
 
-{{component-two}}
+{{#component-two}}
+  {{#my-component.my-nested}}
+    nested
+  {{/my-component.my-nested}}
+{{/component-two}}
 
 {{#my-component}}
 it is a test component
