@@ -13,7 +13,8 @@ export function initialize(/* application */) {
         if (~className.lastIndexOf('/')) {
           className = className.substring(className.lastIndexOf('/') + 1, className.length);
         }
-        this.get('classNames').pushObject(className + '-component');
+        let classNames = this.classNames.concat(className + '-component');
+        Ember.set(this, 'classNames', classNames);
       } catch (err) {
         return;
       }
