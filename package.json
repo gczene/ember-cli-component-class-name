@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-component-class-name",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.6",
+  "description": "Small addon to add default css to components",
   "keywords": [
     "ember-addon"
   ],
